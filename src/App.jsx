@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import {Box, Heading} from '@chakra-ui/react'
+import Navbar from './components/Navbar'
+import Layout from './pages/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const links = ['Home', 'About', 'Contact', 'Login'];
   return (
     <Box>
-      <Heading textAlign='center'>Welcome to GDG Ibadan Website</Heading>
+      <Navbar links={links} />
+      <Layout />
     </Box>
   )
 }
