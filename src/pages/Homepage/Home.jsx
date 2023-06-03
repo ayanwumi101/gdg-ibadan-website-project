@@ -16,7 +16,7 @@ import Buttons from "../../components/buttons";
 import About from "../../assets/images asset.png";
 import Ship from "../../assets/ship.png";
 import Altschool from "../../assets/Altschool.png";
-import Line from "../../assets/line.png";
+import Line from "../../assets/Line.png";
 import Cards from "../../components/cards";
 import Organisers from "../../components/organisers";
 // import Footer from "../components/footer";
