@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-// import Navbar from "../components/navbar";
 import {
   Box,
   Flex,
@@ -19,7 +18,6 @@ import Altschool from "../../assets/Altschool.png";
 import Line from "../../assets/Line.png";
 import Cards from "../../components/cards";
 import Organisers from "../../components/organisers";
-// import Footer from "../components/footer";
 import HCardify from "../../assets/image 3.png";
 import Sponsors from "../../components/sponsors";
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -31,14 +29,10 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <Box
         maxW="100%"
         height="auto"
         mt='5'
-        // mt={{ base: "5.1rem", lg: "4.5rem" }}
-        // ml={{ base: "20px", lg: "50px" }}
-        // mr={{ base: "20px", lg: "50px" }}
         position="relative"
       >
         <Box height={{ base: "732px", lg: "100vh" }}>

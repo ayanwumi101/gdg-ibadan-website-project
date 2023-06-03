@@ -57,13 +57,12 @@ const Navbar = () => {
             ) 
             :
             <Flex alignItems="center" gap={2}>
-              <Avatar size="sm" name="Oluwafolayemi Anifowose" />
+              <Avatar size="sm" name="Oluwafolayemi Anifowose" fontSize={15} />
               <Menu isLazy color="#1E3747">
-                <MenuButton color="#1E3747" fontWeight="medium">
-                  {" "}
+                <MenuButton color="#1E3747" fontWeight="medium" fontSize={15}>
                   Oluwafolayemi Anifowose <ChevronDownIcon />
                 </MenuButton>
-                <MenuList>
+                <MenuList fontSize={15}>
                   <MenuItem>Edit Profile</MenuItem>
                   <MenuItem>Favourites</MenuItem>
                   <MenuItem>Logout</MenuItem>
