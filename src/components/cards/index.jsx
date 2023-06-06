@@ -14,6 +14,7 @@ export default function Cards({ hText, paragraph, background, color }) {
         borderRadius="32px"
         fontFamily="'Google Sans Display', sans-serif"
         marginBottom={{ base: "31.34px" }}
+        boxShadow="md"
       >
         <Box
         p='6'
